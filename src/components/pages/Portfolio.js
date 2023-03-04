@@ -1,15 +1,21 @@
 import React from 'react';
 import Project from '../project';
-import images from '../../assets/images/github.png'
 
-console.log(images)
+const images = {};
+
+function importAll(r){
+    r.keys().forEach((key) => (images[key] = r(key)));
+}
+
+importAll(require.context('../../assets/images', true, /\.(png|jpe?g|svg|ico)$/))
+
 const project = [
 
     {
         title: 'Project One',
         url: "https://github.com/BrettSantor/santorServices",
         description: "this is a test card",
-        image: {images},
+        image: images['./favicon.ico'],
     },  {
         title: 'Project Two',
         url: "https://github.com/BrettSantor/santorServices",
@@ -19,12 +25,12 @@ const project = [
         title: 'Project Three',
         url: "https://github.com/BrettSantor/santorServices",
         description: "this is a test card",
-        image: "../../assets/images/testpic.jpg"
+        image: images["./testpic.jpg"]
     },  {
         title: 'Project Four',
         url: "https://github.com/BrettSantor/santorServices",
         description: "this is a test card",
-        image: "../../assets/images/testpic.jpg"
+        image: images["./github.png"]
     },  {
         title: 'Project Five',
         url: "https://github.com/BrettSantor/santorServices",

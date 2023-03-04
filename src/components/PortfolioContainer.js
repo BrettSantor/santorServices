@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-
 import Header from './header';
-import Footer from './footer';
+
 
 export default function PortfolioContainer(){
 
@@ -10,8 +8,6 @@ export default function PortfolioContainer(){
         <div>
           <Header/>
           
-         
-          <Footer/>
         </div>
       );
 }

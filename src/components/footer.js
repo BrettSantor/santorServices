@@ -1,9 +1,10 @@
 import React from "react";
+import logo from '../assets/images/favicon.ico'
 
 export default function Footer() {
     return (
         <footer>
-            <image src="../../public/logo192.png"/>
+            <img src={logo} alt='React Logo'/>
         Made with React
         </footer>
     );

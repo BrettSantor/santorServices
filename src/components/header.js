@@ -4,7 +4,6 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import ContactMe from './pages/ContactMe';
-import {renderPage} from "./PortfolioContainer";
 
 
 
