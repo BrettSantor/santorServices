@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.list-group{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cardBody{
+
+  border: 2px solid black;
+  border-radius: 5px;
+  background: forestgreen;
+  color: ghostwhite;
+}

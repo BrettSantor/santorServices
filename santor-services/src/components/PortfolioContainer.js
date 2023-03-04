@@ -3,7 +3,8 @@ import Navigation from './navigation';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import ContactMe from './pages/ContactMe'
+import ContactMe from './pages/ContactMe';
+
 
 export default function PortfolioContainer(){
     const [currentPage, setCurrentPage] = useState('AboutMe');
