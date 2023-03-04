@@ -3,7 +3,6 @@ import React from "react";
 
 
 export default function Project(project){
-    // const [project, setProject] = useState(project)
     const projects = project.project;
     console.log(projects)
     return (
@@ -15,11 +14,5 @@ export default function Project(project){
                 </h4>
             ))}
         </div>
-        // <div className="list-group">
-        //      <h4 className="list-group-item" key={project[0].title}>
-        //              <a href= {project[0].url}><h3>{project[0].title}</h3></a>
-        //              <img className="img-fluid" alt={project[0].description} src={project[0].image}/>
-        //          </h4>
-        // </div>
     )
 }

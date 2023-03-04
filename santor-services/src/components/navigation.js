@@ -1,6 +1,7 @@
 import React from 'react';
+// import {currentPage, handlePageChange}from './PortfolioContainer';
 
-function Navigation({ currentPage, handlePageChange }) {
+export default function Navigation({ currentPage, handlePageChange }) {
     return (
       <ul className="nav nav-tabs">
         <li className="nav-item">
@@ -34,7 +35,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             href="#ContactMe"
-            //  TODO: Add a comment explaining what this logic is doing
+    
   
             onClick={() => handlePageChange('ContactMe')}
             className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
@@ -46,4 +47,4 @@ function Navigation({ currentPage, handlePageChange }) {
     );
   }
   
-  export default Navigation;
+  

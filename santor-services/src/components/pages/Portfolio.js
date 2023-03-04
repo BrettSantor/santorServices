@@ -14,7 +14,7 @@ const project = [
         title: 'Project Two',
         url: "https://github.com/BrettSantor/santorServices",
         description: "this is a test card",
-        image: "../../assets/images/testpic.jpg"
+        image: "https://www.freepngimg.com/png/165523-bluey-dog-free-clipart-hq"
     },  {
         title: 'Project Three',
         url: "https://github.com/BrettSantor/santorServices",
