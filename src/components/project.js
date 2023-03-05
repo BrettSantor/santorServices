@@ -9,10 +9,11 @@ export default function Project(project){
     return (
         <div className="list-group">
            {projects.map((projects, index) =>(
-            <div className="projectCard">
-                <h4 className="cardHeader" key={index}>{projects.title}<a href= {projects.url} target="_blank" rel="noopener noreferrer"><img src= {logo} alt="github logo"/></a></h4>
-                   <div className="cardBody"  key={index}> 
-                    <img className="img-fluid" alt={projects.description} src={projects.image}/>
+            <div className="projectCard"  key={index}>
+                <h4 className="cardHeader">{projects.title}<a href= {projects.github} target="_blank" rel="noopener noreferrer"><img src= {logo} alt="github logo"/></a></h4>
+                   <div className="cardBody"> 
+                    <p>{projects.description}</p>
+                   <a href={projects.url} rel="noopener noreferrer" target="_blank"> <img className="img-fluid" alt={projects.description} src={projects.image}/></a>
                     </div>
                 </div>
             ))}

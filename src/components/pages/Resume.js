@@ -5,15 +5,16 @@ import resume from '../../assets/Resume.pdf';
 export default function Resume(){
    
     return (
-        <div className='resume'>
-            <h1>Resume</h1>
-            <h2 className='skills'>Skills</h2>
+        <div className='container '>
+            <h1 className='resume'>Resume</h1>
+            <h2 className='resume'>Skills</h2>
             <div className='frontEnd'>
             <h3>Front-End</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>IndexDB</li>
                 <li>React</li>
                 <li>Webpack</li>
             </ul></div>

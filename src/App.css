@@ -1,5 +1,19 @@
+:root {
+  --slategray: #7D858E;
+  --darkmoss: #576A0C;
+  --brownolive: #9F8D44;
+  --frenchgray: #C6CBD0;
+  --greenolive: #7A8513;
+  --darktext: rgb(27, 27, 27);
+}
+
+body{
+  background-color: var(--frenchgray);
+}
+
 .App {
   text-align: center;
+  background-color: var(--frenchgray);
 }
 
 .App-logo {
@@ -38,18 +52,33 @@
 }
 
 .header {
-  background-color: #61dafb;
+  background-color: var(--darkmoss);
+  color: var(--frenchgray);
 }
+
 
 .nav{
   display: flex;
-  justify-content: space-between;
-  border: 2px solid black;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a{
   text-decoration: none;
-  color: black;
+  color: var(--frenchgray);
 
+}
+h1{
+  text-align: center;
+}
+
+.container {
+  color: var(--darktext);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2%;
 }
 
 .cardBody a{
@@ -66,6 +95,7 @@ a{
 .cardHeader{
   display: flex;
   justify-content: space-around;
+  color: var(--darktext);
 }
 
 .projectCard{
@@ -74,10 +104,31 @@ a{
   margin-top: 2%; */
   box-sizing: border-box;
   margin: 5px;
-  border: 2px solid black;
+  border: 2px solid var(--slategray);
   border-radius: 5px;
-  background: forestgreen;
-  color: ghostwhite;
+  background: var(--greenolive);
+  color: var(--darktext);
   height: 425px;
   width: 425px;
+}
+
+.resume{
+  text-align: center;
+width: 100%;
+}
+
+.frontEnd{
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.backEnd{
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#resumeButt{
+  margin: 2%;
+  background-color: var(--darkmoss);
+  border-radius: 5px;
 }

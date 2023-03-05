@@ -49,7 +49,7 @@ const handleFormSubmit = (e) => {
     setErrorMessage('')
         }
     return (
-        <div>
+        <div className='container'>
             <h1>Reach Out To Me</h1>
             <form className="form">
         <input
