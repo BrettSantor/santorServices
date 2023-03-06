@@ -5,7 +5,7 @@ export default function PortfolioContainer(){
 
 
       return (
-        <div>
+        <div className='portContainer'>
           <Header/>
           
         </div>

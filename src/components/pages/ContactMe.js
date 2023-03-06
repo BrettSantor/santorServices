@@ -50,9 +50,10 @@ const handleFormSubmit = (e) => {
         }
     return (
         <div className='container'>
-            <h1>Reach Out To Me</h1>
+            <h1 id='reachHeader'>Reach Out To Me</h1>
             <form className="form">
         <input
+        className='inputField'
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -60,6 +61,7 @@ const handleFormSubmit = (e) => {
           placeholder="email"
         />
           <input
+          className='inputField'
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -67,6 +69,8 @@ const handleFormSubmit = (e) => {
           placeholder="name"
         />
         <input
+        className='inputField'
+        id='messegeBox'
           value={message}
           name="message"
           onChange={handleInputChange}

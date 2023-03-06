@@ -1,5 +1,6 @@
 import React from 'react';
 import resume from '../../assets/Resume.pdf';
+import download from '../../assets/images/download.png'
 
 
 export default function Resume(){
@@ -27,7 +28,9 @@ export default function Resume(){
             <li>GraphQL</li>
             <li>RESTful APIs</li>
             </div>
-            <button id='resumeButt'><a href= {resume} download={resume}>Download</a></button>
+            <div className='homeButt'>
+            <button id='resumeButt'><a href= {resume} download={resume}><img src={download} alt='download icon'/></a></button>
+            </div>
         </div>
     );
 }

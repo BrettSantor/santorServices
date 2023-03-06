@@ -1,3 +1,7 @@
+html{
+  background-image: linear-gradient(rgb(12, 99, 12) 35%,rgb(140, 216, 140) 65%);
+  background-size: cover;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,17 +9,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(rgb(6, 56, 6),rgb(50, 61, 50)); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  position: relative;
+  min-height: 100vh;
+  margin: 0%;
+  /* background-image: linear-gradient(rgb(6, 56, 6) 35%,rgb(50, 61, 50) 65%) */
+}
+
+.portContainer{
+  padding-bottom: 2.5rem;
+}
+
 footer{
-  position:relative;
+  position:absolute;
   display: flex;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
   justify-content: center;
+}
+
+.footerIcon{
+  padding: 5px;
 }
