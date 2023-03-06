@@ -1,6 +1,5 @@
 :root {
---dark:rgb(6, 56, 6);
---light: rgb(50, 61, 50);
+--text:rgb(248,248,255);
 --accent:rgb(218, 165, 32);
 }
 
@@ -15,11 +14,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   #resumeButt {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -47,7 +46,7 @@
 
 .header {
  position: relative;
-  color: ghostwhite;
+  color: var(--text);
   border: 2px solid;
   border-radius: 10px;
   padding-bottom: 10px;
@@ -84,17 +83,17 @@
 
 a{
   text-decoration: none;
-  color: ghostwhite;
+  color:var(--text);
 
 }
 h1{
   position: relative;
   text-align: center;
-  color: ghostwhite;
+  color:var(--text);
 }
 
 .container {
-  color: ghostwhite;
+  color: var(--text);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -103,7 +102,7 @@ h1{
 
 .cardBody {
  
-  color: ghostwhite;
+  color:var(--text);
 }
 
 .list-group{
@@ -116,7 +115,7 @@ h1{
 .cardHeader{
   display: flex;
   justify-content: space-around;
-  color:ghostwhite;
+  color:var(--text);
 }
 
 .projectCard{
@@ -147,12 +146,12 @@ box-shadow: 10px 10px 5px rgb(44, 43, 43);
 .resume{
   text-align: center;
 width: 100%;
-color: ghostwhite;
+color:var(--text);
 }
 
 .frontEnd{
   text-align: center;
-  color: ghostwhite;
+  color: var(--text);
   width: 50%;
   box-sizing: border-box;
   list-style-position: inside;
@@ -160,7 +159,7 @@ color: ghostwhite;
 
 .backEnd{
   text-align: center;
-  color: ghostwhite;
+  color: var(--text);
   width: 50%;
   box-sizing: border-box;
   list-style-position: inside;
@@ -174,7 +173,7 @@ ul li::marker {
   content: '🙟';
 }
 
-#resumeButt{
+#resumeButt, #subButt{
   margin: 10px;
   padding: 30px;
   text-align: center;
@@ -188,7 +187,7 @@ ul li::marker {
   transition: all 0.2s ease;
 }
 
-#resumeButt:active{
+#resumeButt:active, #subButt:active{
   background-color: var(--accent);
   box-shadow: 0 0 2px darkslategray;
   transform: translateY(2px);

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import mail from '../../assets/images/mail.png'
 import { checkMessage, checkName, validateEmail } from '../../utils/helpers';
 
 
@@ -77,7 +77,7 @@ const handleFormSubmit = (e) => {
           type="message"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button id='subButt' type="button" onClick={handleFormSubmit}><img src={mail} alt='mail icon'/></button>
       </form>
       {errorMessage && (
         <div>
