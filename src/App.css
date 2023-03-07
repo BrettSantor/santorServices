@@ -81,6 +81,25 @@
   color: var(--accent);
 }
 
+li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+li:hover:after {
+  width: 100%;
+  background: var(--accent);
+}
+
+.active{
+  color: var(--accent);
+  border-bottom: solid 1px var(--accent);
+}
+
 a{
   text-decoration: none;
   color:var(--text);
