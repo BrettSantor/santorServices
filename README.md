@@ -27,6 +27,8 @@ This is a reimagined portfolio page using React! It has cards for projects that 
  n/a
 ## Usage 
 ![gif of site in action](./src/assets/images/Santor_Services.gif)
+This is a visual representation of Reacts pages and components and how they relate to each other.
+![ReacTree](./src/assets/images/ReacTree%20-%20santorservices.png)
 ## Credits 
  All this coding made possible by [Jerome Chenette](https://github.com/jeromechenette) and my fellow students who help each other along the way
 ## Contributions 
