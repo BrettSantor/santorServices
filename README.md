@@ -3,7 +3,7 @@
 ![badmath](https://img.shields.io/badge/Made%20With-JavaScript-red)
 ![badmath](https://img.shields.io/badge/Made%20With-React-green)
 ## description
-[Deployed Link](placeholder)
+[Deployed Link](https://brettsantor.github.io/santorServices/)
 This is a reimagined portfolio page using React! It has cards for projects that I have completed, links to social media and even a form to send me a message.
 
 
