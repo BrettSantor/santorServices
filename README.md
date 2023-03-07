@@ -5,7 +5,7 @@
 ## description
 [Deployed Link](placeholder)
 This is a reimagined portfolio page using React! It has cards for projects that I have completed, links to social media and even a form to send me a message.
-![gif of install]()
+
 
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:| 
@@ -26,7 +26,7 @@ This is a reimagined portfolio page using React! It has cards for projects that 
 ## Installation 
  n/a
 ## Usage 
-n/a
+![gif of site in action](./src/assets/images/Santor_Services.gif)
 ## Credits 
  All this coding made possible by [Jerome Chenette](https://github.com/jeromechenette) and my fellow students who help each other along the way
 ## Contributions 
