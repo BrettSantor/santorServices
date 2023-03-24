@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import mail from '../../assets/images/mail.png'
 import { checkMessage, checkName, validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 
 
 
@@ -12,14 +13,32 @@ const [name, setName] = useState('');
 const [message, setMessage] = useState('');
 const [errorMessage, setErrorMessage] = useState('')
 
+const form = useRef();
+
+const sendEmail = (e) => {
+    console.log('this is send email')
+  e.preventDefault();
+
+  emailjs.sendForm('service_8qr2wna', 'template_z3ij3am', form.current, 'yG2rIISPvT8XzdC3y')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+   setEmail('');
+   setName('');
+   setMessage('');
+   setErrorMessage('');
+};
+
 const handleInputChange = (e) => {
     const {target} = e;
     const inputType = target.name;
     const inputValue    = target.value;
 
-    if (inputType === 'email') {
+    if (inputType === 'user_email') {
         setEmail(inputValue);
-    } else if (inputType === 'name'){
+    } else if (inputType === 'user_name'){
         setName(inputValue);
     } else {
         setMessage(inputValue)
@@ -43,19 +62,16 @@ const handleFormSubmit = (e) => {
         setErrorMessage('Please Enter A Name');
         return;
     }
-    setName('');
-    setEmail('');
-    setMessage('');
-    setErrorMessage('')
+        sendEmail(e);
         }
     return (
         <div className='container'>
             <h1 id='reachHeader'>Reach Out To Me</h1>
-            <form className="form">
+            <form className="form" ref={form} onSubmit={sendEmail} >
         <input
         className='inputField'
           value={email}
-          name="email"
+          name="user_email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
@@ -63,7 +79,7 @@ const handleFormSubmit = (e) => {
           <input
           className='inputField'
           value={name}
-          name="name"
+          name="user_name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
