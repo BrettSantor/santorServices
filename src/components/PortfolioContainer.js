@@ -12,7 +12,7 @@ export default function PortfolioContainer(){
 
       return (
         <div className='portContainer'>
-          <Router>
+          <Router basename='/'>
           <Header/>
           <Routes>
             <Route path='/'
