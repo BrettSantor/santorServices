@@ -1,47 +1,45 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import {currentPage, handlePageChange}from './PortfolioContainer';
 
 export default function Navigation({ currentPage, handlePageChange }) {
     return (
       <ul className="nav nav-tabs">
         <li className="nav-item">
-          <a
-            href="#AboutMe"
-            onClick={() => handlePageChange('AboutMe')}
-  
-            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+          <Link
+           to={'/'}
+           onClick={() => handlePageChange('/')}
+            className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
             About Me
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="#Portfolio"
-            onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          <Link
+           to='/portfolio'
+           onClick={() => handlePageChange('/portfolio')}
+            className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="#Resume"
-            onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          <Link
+            to= '/resume'
+            onClick={() => handlePageChange('/resume')}
+            className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
           >
             Resume
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="#ContactMe"
-    
-  
-            onClick={() => handlePageChange('ContactMe')}
-            className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
+          <Link
+            to= '/contactme'
+            onClick={() => handlePageChange('/contactme')}
+            className={currentPage === '/contactme' ? 'nav-link active' : 'nav-link'}
           >
             Contact Me
-          </a>
+          </Link>
         </li>
       </ul>
     );
