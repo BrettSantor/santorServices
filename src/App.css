@@ -90,7 +90,7 @@ li:after {
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
 }
-li:hover:after {
+.nav-item:hover:hover:after {
   width: 100%;
   background: var(--accent);
 }
