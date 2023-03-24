@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/santorServices/static/css/main.7704c530.css",
-    "main.js": "/santorServices/static/js/main.945a7290.js",
-    "static/js/787.6662e7cb.chunk.js": "/santorServices/static/js/787.6662e7cb.chunk.js",
-    "static/media/Resume.pdf": "/santorServices/static/media/Resume.a154086522cac7d07a34.pdf",
-    "static/media/pexels-kelly-4098463.png": "/santorServices/static/media/pexels-kelly-4098463.235ea360e35b8545b06d.png",
-    "static/media/socialNetworkuserRoutes.png": "/santorServices/static/media/socialNetworkuserRoutes.6a5b8bc91a3eb8015255.png",
-    "static/media/leaves.jpg": "/santorServices/static/media/leaves.55261fbd03d4621f4fce.jpg",
-    "static/media/planetx.png": "/santorServices/static/media/planetx.bc63fd4e9bb2b952f70c.png",
-    "static/media/favicon.ico": "/santorServices/static/media/favicon.4fe75d5f9adb18067b85.ico",
-    "index.html": "/santorServices/index.html",
-    "main.7704c530.css.map": "/santorServices/static/css/main.7704c530.css.map",
-    "main.945a7290.js.map": "/santorServices/static/js/main.945a7290.js.map",
-    "787.6662e7cb.chunk.js.map": "/santorServices/static/js/787.6662e7cb.chunk.js.map"
+    "main.css": "/static/css/main.c8598f92.css",
+    "main.js": "/static/js/main.399d8e96.js",
+    "static/js/787.6662e7cb.chunk.js": "/static/js/787.6662e7cb.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.b68cff3be4e26721bc20.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.bfe004d9604393ea2603.pdf",
+    "static/media/pexels-kelly-4098463.png": "/static/media/pexels-kelly-4098463.235ea360e35b8545b06d.png",
+    "static/media/socialNetworkuserRoutes.png": "/static/media/socialNetworkuserRoutes.6a5b8bc91a3eb8015255.png",
+    "static/media/leaves.jpg": "/static/media/leaves.55261fbd03d4621f4fce.jpg",
+    "static/media/ReacTree - santorservices.png": "/static/media/ReacTree - santorservices.c3b29f73ce82098f0cca.png",
+    "static/media/planetx.png": "/static/media/planetx.bc63fd4e9bb2b952f70c.png",
+    "static/media/favicon.ico": "/static/media/favicon.eba3396e6885512508ea.ico",
+    "index.html": "/index.html",
+    "main.c8598f92.css.map": "/static/css/main.c8598f92.css.map",
+    "main.399d8e96.js.map": "/static/js/main.399d8e96.js.map",
+    "787.6662e7cb.chunk.js.map": "/static/js/787.6662e7cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7704c530.css",
-    "static/js/main.945a7290.js"
+    "static/css/main.c8598f92.css",
+    "static/js/main.399d8e96.js"
   ]
 }
