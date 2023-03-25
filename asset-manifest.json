@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/santorServices/static/css/main.34398c9f.css",
-    "main.js": "/santorServices/static/js/main.fe896f3c.js",
+    "main.js": "/santorServices/static/js/main.327f279c.js",
     "static/js/787.6662e7cb.chunk.js": "/santorServices/static/js/787.6662e7cb.chunk.js",
     "static/media/profile.jpg": "/santorServices/static/media/profile.b68cff3be4e26721bc20.jpg",
     "static/media/Resume.pdf": "/santorServices/static/media/Resume.bfe004d9604393ea2603.pdf",
@@ -13,11 +13,11 @@
     "static/media/favicon.ico": "/santorServices/static/media/favicon.eba3396e6885512508ea.ico",
     "index.html": "/santorServices/index.html",
     "main.34398c9f.css.map": "/santorServices/static/css/main.34398c9f.css.map",
-    "main.fe896f3c.js.map": "/santorServices/static/js/main.fe896f3c.js.map",
+    "main.327f279c.js.map": "/santorServices/static/js/main.327f279c.js.map",
     "787.6662e7cb.chunk.js.map": "/santorServices/static/js/787.6662e7cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34398c9f.css",
-    "static/js/main.fe896f3c.js"
+    "static/js/main.327f279c.js"
   ]
 }
