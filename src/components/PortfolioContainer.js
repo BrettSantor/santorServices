@@ -15,16 +15,16 @@ export default function PortfolioContainer(){
           <Router basename='/'>
           <Header/>
           <Routes>
-            <Route path='/'
+            <Route path='/santorServices/'
             element= {<AboutMe/>}
             />
-            <Route path='/portfolio'
+            <Route path='/santorServices/portfolio'
             element= {<Portfolio/>}
             />
-            <Route path='/resume'
+            <Route path='/santorServices/resume'
             element= {<Resume/>}
             />
-            <Route path='/contactme'
+            <Route path='/santorServices/contactme'
             element= {<ContactMe/>}
             />
           </Routes>
